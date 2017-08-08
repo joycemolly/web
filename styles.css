@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+	background-image:url("bg.jpg");
+	background-color: #F9F5D8;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	position: relative;
+}
+
+
+header{
+	background-image : url("red.jpg");
+	background-color: #B53923;
+
+}
+nav{
+	position: relative;
+}
+
+nav ul {
+	list-style:none;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	text-align:right;
+}
+
+nav ul li{
+	display: inline;
+	padding-right:30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	font-size: 1em;
+	font-weight: 700; 
+
+}
+#topic{
+	font-size: 0.5em;
+	font-weight: 800;
+	text-align: center;
+
+}
+
+}
+#header-info1{
+	color: #F9F5D8;
+	font-size: 10em;
+	padding-left:25px;
+	padding-top: 25px;
+ 
+}
+#name{
+	font-size: 2em;
+	border: 2px solid #FFFFFF;
+	padding-left:1px;
+	padding-top: 1px;
+	width: 30vw;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	animation: fade-in;
+    animation-duration: 3s;/*动画持续时间*/  
+}
+#profession{
+	font-size: 0.8em;
+	text-align: right;
+	width: 300px;
+	height:200px;
+	float: left;
+
+}
+
+#lefttext{
+	width: 250px;
+	float: right;
+	padding-right: 150px;
+	padding-top: 80px;
+}
+
+
+#righttext{
+	width: 250px;
+	float: left;
+	padding-left: 150px;
+	padding-top: 80px;
+}
+
+#profession ul {
+	list-style: none;
+	width: 600px;
+	cursor: pointer;  
+    transition: all 0.6s; 
+}
+
+#profession:hover{
+	 transform: scale(1.1);  
+}
+
+#profession2 {
+	list-style: none;
+	width: 200px;
+	cursor: pointer;  
+    transition: all 0.6s; 
+}
+
+}
+
+
+#picture {
+	width:200px;
+	height: 200px;
+	margin-left: 300px;
+	float: left;
+}
+
+@keyframes fade-in {  
+    0% {opacity: 0;}/*初始状态 透明度为0*/  
+    40% {opacity: 0;}/*过渡状态 透明度为0*/  
+    100% {opacity: 1;}/*结束状态 透明度为1*/  
+}  
+@-webkit-keyframes fade-in {/*针对webkit内核*/  
+    0% {opacity: 0;}  
+    40% {opacity: 0;}  
+    100% {opacity: 1;}  
+}  
+#content {    
+    animation: fade-in;/*动画名称*/  
+    animation-duration: 3s;/*动画持续时间*/  
+}  
+
+
+
+@-webkit-keyframes mymove {
+from {top:250px;}
+to {top:300px;}
+}
+
+#pofoliobar{
+	background-image:url("red.jpg"); 
+	background-color: #B53923;
+	height: 80px; 
+	width:1280px;
+	position: absolute;
+	top: 800px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header-info2
